@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enchanting Insights: Hogwarts Feedback Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shantell+Sans&family=Whisper&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="form-section">
+      <form class="hogwarts-feedback-form">
+        <h1>Анкета для Магічних Вражень у Хогвортсі &#x1F4DC;</h1>
+        <fieldset class="personal-info">
+          <legend>Магічні дані &#x1F9D9;&#x200D;&#x2642;&#xFE0F;</legend>
+          <label
+            >Ім'я на килимках:
+            <input type="text" name="magicname" autofocus required
+          /></label>
+          <label
+            >Електронна сова: <input type="email" name="owlmail" required
+          /></label>
+          <label
+            >День магії: <input type="date" name="magicdate" required
+          /></label>
+        </fieldset>
+
+        <fieldset class="gender">
+          <legend>Магічна стать &#x1F984;</legend>
+          <label
+            ><input type="radio" name="gender" value="wizard" /> Чарівник</label
+          ><label
+            ><input type="radio" name="gender" value="witch" /> Відьма</label
+          ><label
+            ><input type="radio" name="gender" value="other" /> Інше</label
+          >
+        </fieldset>
+
+        <fieldset class="subscription">
+          <legend>Додаткові смаколики &#x1F372;</legend>
+          <label
+            ><input type="checkbox" name="subcribe" required /> Підписатися на
+            розсилку магічних вістей</label
+          >
+        </fieldset>
+
+        <fieldset class="hobbies">
+          <legend>Оберіть свою магію &#x1F52E;</legend>
+          <select name="hobbies">
+            <optgroup label="Магічні технології">
+              <option value="Відьмацькі чари для комп'ютерів">
+                Відьмацькі чари для комп'ютерів
+              </option>
+              <option value="Відьмацькі чари для комп'ютерів">
+                Мережі між Хогвортс і Дурмстрангом
+              </option>
+            </optgroup>
+            <optgroup label="Магічна музика"></optgroup>
+            <option value="Магічні рок-гітари">Магічні рок-гітари</option>
+            <option value="Поп-гармонія">Поп-гармонія</option>
+          </select>
+        </fieldset>
+
+        <fieldset class="seo">
+          <legend>Як ви дізналися про Хогвортс? &#x1F3F0;</legend>
+          <label
+            ><input type="radio" name="seo" value="Пошукові Закляття" />
+            Пошукові Закляття</label
+          >
+          <label
+            ><input type="radio" name="seo" value="Спільнота Крилатих Листів" />
+            Спільнота Крилатих Листів</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="seo"
+              value="Порада мудрого друга-волхва"
+            />
+            Порада мудрого друга-волхва</label
+          >
+        </fieldset>
+
+        <fieldset class="comment">
+          <legend>Опишіть свій ідеальний факультет &#x1F36D;</legend>
+          <textarea name="comment"></textarea>
+        </fieldset>
+
+        <button type="submit">Відправити Заклинання &#x1F989;</button>
+      </form>
+    </section>
+  </body>
+</html>
